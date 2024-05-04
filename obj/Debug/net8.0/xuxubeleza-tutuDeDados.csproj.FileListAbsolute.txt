@@ -1,0 +1,15 @@
+/workspaces/xuxubeleza-tutuDeDados/obj/Debug/net8.0/xuxubeleza-tutuDeDados.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/xuxubeleza-tutuDeDados/obj/Debug/net8.0/xuxubeleza-tutuDeDados.AssemblyInfoInputs.cache
+/workspaces/xuxubeleza-tutuDeDados/obj/Debug/net8.0/xuxubeleza-tutuDeDados.AssemblyInfo.cs
+/workspaces/xuxubeleza-tutuDeDados/obj/Debug/net8.0/xuxubeleza-tutuDeDados.csproj.CoreCompileInputs.cache
+/workspaces/xuxubeleza-tutuDeDados/obj/Debug/net8.0/xuxubeleza-tutuDeDados.sourcelink.json
+/workspaces/xuxubeleza-tutuDeDados/bin/Debug/net8.0/xuxubeleza-tutuDeDados
+/workspaces/xuxubeleza-tutuDeDados/bin/Debug/net8.0/xuxubeleza-tutuDeDados.deps.json
+/workspaces/xuxubeleza-tutuDeDados/bin/Debug/net8.0/xuxubeleza-tutuDeDados.runtimeconfig.json
+/workspaces/xuxubeleza-tutuDeDados/bin/Debug/net8.0/xuxubeleza-tutuDeDados.dll
+/workspaces/xuxubeleza-tutuDeDados/bin/Debug/net8.0/xuxubeleza-tutuDeDados.pdb
+/workspaces/xuxubeleza-tutuDeDados/obj/Debug/net8.0/xuxubeleza-tutuDeDados.dll
+/workspaces/xuxubeleza-tutuDeDados/obj/Debug/net8.0/refint/xuxubeleza-tutuDeDados.dll
+/workspaces/xuxubeleza-tutuDeDados/obj/Debug/net8.0/xuxubeleza-tutuDeDados.pdb
+/workspaces/xuxubeleza-tutuDeDados/obj/Debug/net8.0/xuxubeleza-tutuDeDados.genruntimeconfig.cache
+/workspaces/xuxubeleza-tutuDeDados/obj/Debug/net8.0/ref/xuxubeleza-tutuDeDados.dll
