@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("xuxubeleza-tutuDeDados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37714004a08727f70e56b683567dcd9f850126b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8408418e9fae028df5abe6dfdcd82387b2f193e")]
 [assembly: System.Reflection.AssemblyProductAttribute("xuxubeleza-tutuDeDados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("xuxubeleza-tutuDeDados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
