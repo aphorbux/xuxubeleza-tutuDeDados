@@ -1,4 +1,4 @@
-﻿using Modelo;
+﻿/*using Modelo;*/
 
 /*              Questão 1
 double N1 = Convert.ToDouble(Console.ReadLine());
@@ -32,6 +32,7 @@ int[] notas = new int [20] {5,6,3,8,5,3,4,5,7,5,3,10,2,8,2,5,8,8,9,4};
 Console.WriteLine("Maiores: " + Maiores + "\nMenores: " + Menores);
 */
 
+/*
 MenuItem itemNivel1 = new MenuItem("Arquivo");
 
 MenuItem itemNivel11 = new MenuItem("Salvar Como");
@@ -64,3 +65,75 @@ void ImprimirMenuItem(MenuItem menuItem, int nivel){
 }
 
 ImprimirMenuItem(itemNivel1, 0);
+*/
+
+/*
+using System.Collections.Generic;
+
+Queue<string> pedidos = new Queue<string>();
+
+int operacao = -1;
+while(operacao != 4){
+    Console.WriteLine("Seja bem vindo. Escolha sua operação");
+    Console.WriteLine("1 - para listar");
+    Console.WriteLine("2 - para cadastrar");
+    Console.WriteLine("3 - para atender");
+    Console.WriteLine("4 - sair");
+    operacao = Convert.ToInt16(Console.ReadLine());
+
+    if(operacao == 4) break;
+    if(operacao == 1) Listar(pedidos);
+    if(operacao == 2) Cadastrar(pedidos);
+    if(operacao == 3) Atender(pedidos);
+}
+
+pedidos.Dequeue();
+
+void Listar(Queue<string> fila){
+    foreach(string e in fila)
+        Console.WriteLine(e);
+
+    Console.WriteLine("--------------");
+}
+
+void Cadastrar(Queue<string> fila){
+    Console.WriteLine("Pôr nome do cliente");
+    string cliente = Console.ReadLine() ?? "";
+    fila.Enqueue(cliente);
+}
+
+void Atender (Queue<string> fila){
+    string cliente = fila.Dequeue();
+    Console.WriteLine("Cliente atendido: " + cliente);
+}
+*/
+
+using System.Collections.Generic;
+
+Queue<string> funcionarios = new Queue<string>();
+
+int operacao = -1;
+while(operacao != 3){
+    Console.WriteLine("Seja bem vindo. Escolha sua operação");
+    Console.WriteLine("1 - para listar");
+    Console.WriteLine("2 - para cadastrar");
+    Console.WriteLine("3 - sair");
+    operacao = Convert.ToInt16(Console.ReadLine());
+
+    if(operacao == 3) break;
+    if(operacao == 1) Listar(funcionarios);
+    if(operacao == 2) Cadastrar(funcionarios);
+}
+
+void Listar(Queue<string> fila){
+    foreach(string e in fila)
+        Console.WriteLine(e);
+
+    Console.WriteLine("--------------");
+}
+
+void Cadastrar(Queue<string> fila){
+    Console.WriteLine("Pôr nome do cliente");
+    string cliente = Console.ReadLine() ?? "";
+    fila.Enqueue(cliente);
+}
